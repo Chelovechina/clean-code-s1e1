@@ -8,23 +8,23 @@
   </head>
 
   <body class="body">
-    <div class="matrix-eisenhower">
-      <img class="matrix-eisenhower__img" src="./eisenhower-matrix.jpg">
+    <section class="matrix-eisenhower">
+      <img class="matrix-eisenhower__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
       <a 
         class="matrix-eisenhower__link"
         href="https://goal-life.com/page/method/matrix-eisenhower"
       >
         Want more details?
       </a>
-    </div>
-    <div class="main">
-      <p id="add-item">
+    </section>
+    <section class="main">
+      <div id="add-item">
         <h3 class="add-item__title title">Add Item</h3>
         <div class="add-item__wrapper">
           <input id="new-task" class="add-item__input task__input" type="text">
           <button class="btn">Add</button>
         </div>
-      </p>
+      </div>
 
       <h3 class="title">Todo</h3>
       <ul id="incomplete-tasks" class="incomplete-tasks tasks">
@@ -33,14 +33,14 @@
           <label class="task__label">Pay Bills</label>
           <input type="text" class="task__input">
           <button class="task__edit btn edit">Edit</button>
-          <button class="task__delete btn delete"><img src="./remove.svg"></button>
+          <button class="task__delete btn delete"><img src="./remove.svg" alt="Remove btn"></button>
         </li>
         <li class="incomplete-tasks__task task edit-mode">
           <input type="checkbox" class="task__checkbox">
           <label class="task__label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task__input">
           <button class="task__edit btn edit">Save</button>
-          <button class="task__delete btn delete"><img src="./remove.svg"></button>
+          <button class="task__delete btn delete"><img src="./remove.svg" alt="Remove btn"></button>
         </li>
       </ul>
 
@@ -51,10 +51,10 @@
           <label class="task__label">See the Doctor</label>
           <input type="text" class="task__input">
           <button class="task__edit btn edit">Edit</button>
-          <button class="task__delete btn delete"><img src="./remove.svg"></button>
+          <button class="task__delete btn delete"><img src="./remove.svg" alt="Remove btn"></button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 
